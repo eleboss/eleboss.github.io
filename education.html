@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Education-Huai Yu</title>
+	<meta name="description" content="余淮,武汉大学,PhD Candidate &nbsp;研究兴趣：图像处理与计算机视觉,无人机遥感,多模态图像匹配&nbsp;个人简介：Researchgate: https://www.researchgate.net/profile/Huai_Yu2"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="./css/bootstrap.min.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+<link href="./css/bootstrap-responsive.min.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+<link href="./css/base.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+<link href="./css/institution.css?v=+'<f:version/>'" rel="stylesheet" type="text/css"/>
+<link href="./css/fileuploader.min.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+<link href="./css/fileuploader.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+<link href="http://www.escience.cn/dface/images/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="./css/theme_m_namecard.min.css?v=v1_2_10" rel="stylesheet" type="text/css"/>
+</head>
+
+<body class="dHome-body gray" data-offset="50" data-target=".subnav"
+	data-spy="scroll">
+	<script type="text/javascript" src="http://www.escience.cn/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<div class="navbar navbar-inverse navbar-fixed-top">
+		
+		<!-- /如果当前是我的主页，显示管理提示 -->
+		<div  class="container d-config">
+		
+		</div>
+		
+	</div>
+	<form id="searchForm" action="/system/discover/search" method='get'>
+		<input type="hidden" name="keyword" id="keyword">
+	</form>
+	<div id="information" class="alert alert-success" style="display:none"></div>
+	<form id="loginForm" action="/system/login" method="post">
+		<input type="hidden" id="currentPageUrl" name="pageUrl" value=""/>
+	</form>
+	<script>
+	function login(){
+		var homeUrl='http://escience.cn/WEB-INF/views/theme_m_namecard_index/browseIndex.jsp'+'/people';
+		if(homeUrl!=window.location.href){
+			document.getElementById('currentPageUrl').value=window.location.href;
+		}
+		document.getElementById('loginForm').submit();
+	}
+	var xmlHttp;    
+	function createXMLHttpRequest() {    
+	    if (window.ActiveXObject) {  
+	        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    
+	    }    
+	    else if (window.XMLHttpRequest) {  
+	        xmlHttp = new XMLHttpRequest();    
+	    }
+	    
+	}    
+	var okFunc = function(){    
+	    if(xmlHttp.readyState == 4) {    
+	        if(xmlHttp.status == 200) {  
+	            window.location.reload();
+	        }    
+	    }    
+	}    
+	var startAjax = function(){    
+	    createXMLHttpRequest();    
+	    if( !xmlHttp){    
+	        return alert('create failed');    
+	    }
+	    //需要转换的语言是什么呢？
+	    var language="";
+	    if(true){
+	    	language='en';
+	    }else{
+	    	language="en";
+	    }
+	    xmlHttp.open("GET", "/system/language/change?language="+language+"&random="+Math.random(), true);  
+	    xmlHttp.onreadystatechange = okFunc;    
+	    xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");    
+	    xmlHttp.send();    
+	}  
+	document.getElementById('changeLanguage').onclick=startAjax;
+	</script>
+	
+	
+<div class="container namecard-skin" id="homepagebody">
+		<div class="row-fluid mini-layout center p-top">
+			<div class="span3 span-left left-menu">
+    <div class="tabbable tabs-left">
+     <ul class="nav nav-tabs span12" id="sortableMenu">
+	    <li class="li-item" menu_item_id="39821">
+	          	<a href="./index.html">
+	          		<span>
+	          			Index</span>
+	          	</a>
+	      </li>
+	    <li class="li-item" menu_item_id="44163">
+	          	<a href="./project.html">
+	          		<span>
+	          			Projects</span>
+	          	</a>
+	      </li>
+	    <li class="li-item" menu_item_id="39822">
+	          	<a href="./paper.html">
+	          		<span>
+	          			Publications</span>
+	          	</a>
+	      </li>
+	    <!-- <li class="li-item" menu_item_id="42967">
+	          	<a href="./codes.html">
+	          		<span>
+	          			Codes</span>
+	          	</a>
+	      </li>  -->
+	    <li class="li-item" menu_item_id="39823">
+	          	<a href="./education.html">
+	          		<span>
+						Education</span>
+	          	</a>
+	      </li>
+
+	    <li class="li-item" menu_item_id="41263">
+	          	<a href="./yuhuai.html">
+	          		<span>
+						Contact</span>
+	          	</a>
+	      </li>
+	    </ul>
+      <input id="activeUrl" type="hidden" value='./education.html'/>
+      </div>
+   </div>
+  
+<script src="/resources/scripts/jquery/1.7.2/jquery-1.7.2.min.js?v=v1_2_10" type="text/javascript" ></script>
+<script src="/resources/scripts/jquery/jquery-ui-1.8.16.custom.min.js?v=v1_2_10" type="text/javascript"></script>
+<script>
+$(document).ready(function(){	
+	$('.li-item a').each(function(){
+
+		var currUrl = $(this).attr('href').replace('','');
+		var clickUrl = $("#activeUrl").val();
+		if(clickUrl==""){
+			if(currUrl.indexOf("index.html")>0){
+				$(this).parent().addClass("active");
+			}
+		}
+		else if(currUrl==clickUrl){
+			$(this).parent(".active").removeClass("active");
+			$(this).parent().addClass("active");
+		}else if(endWiths(clickUrl,currUrl)){
+			$(this).parent(".active").removeClass("active");
+			$(this).parent().addClass("active");
+		}
+	});
+	function endWiths(str,ends){
+		var length=ends.length;
+		var index=str.indexOf(ends);
+		if(index>-1&&str.length-length){
+			return true;
+		}		
+		return false;
+	}
+
+});
+var ajaxRequest = function(requestURL,queryString,callBackFunction){
+	$.ajax({
+		url:requestURL,
+		type: "GET",
+		data: queryString,
+		error: function (xhr, ajaxOptions, thrownError) {
+	    },
+	    success: function(data){
+			callBackFunction(data);
+		}
+    });
+};
+
+</script><div class="span9">
+			<!-- 这是首页 -->
+			<div id="mainSpan">
+					<div class="otherpage">
+							<div class="page-header"><h2>Education</h2></div>
+							<div class="page-container">
+								<p>2011.9-2015.6 B. Eng. in Electronics and Information Engineering, Wuhan University</p>
+								<p>2015.9-Present Ph.D. Candidate in Communication and Information System，Wuhan University</p>
+								<p>2018.10-Present Visiting Scholar, Robotics Institute, Carnegie Mellon University.
+							</div>
+						</div>
+						</div>
+				</div>
+		</div>
+	</div>
+
+
+
+<script type="text/html" id="friend-template">
+		<li>
+		<div class="person-img">
+		<a target="_blank" href="/people/{{= domain}}"><img src="{{= imgUrl}}"/></a>
+		</div>
+		<div class="person-info">
+		<a target="_blank" href="/people/{{= domain}}" title="{{= simpleUser.zhName}}">{{= simpleUser.zhName}}</a>
+		</div>
+		<div class="clear"></div>
+		</li>
+</script></body>
+</html>
