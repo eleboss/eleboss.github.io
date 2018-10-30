@@ -1,2 +1,8 @@
-_site/
-
+.DS_Store
+node_modules
+*.log
+.temp
+vuepress
+TODOs.md
+dist
+deploy

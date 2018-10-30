@@ -1,31 +1,90 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+<h1 align="center">
+  <a href="https://github.com/mtobeiyf/vuepress-homepage" title="Homepage">
+    <img src="https://user-images.githubusercontent.com/5097752/39163721-4c79012c-47ae-11e8-842b-2af72f69cc2c.jpg" width="300px" alt="">
+  </a>
+  <br />
+  Your Awesome Homepage
+</h1>
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+<p align="center">
+  Build your site like a Pro :v:
+</p>
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="">
+  <img src="https://img.shields.io/badge/PR-welcome-brightgreen.svg" alt="">
+</p>
 
-# Instructions
+<h2>
+  <a href="https://vuepress-homepage.netlify.com" target="_blank" title="Demo">
+    Live Demo
+  </a>
+</h2>
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+Screenshots:
 
-See more info at https://academicpages.github.io/
+| About Me :raising_hand: | Projects/Publications :books: |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39126631-798faf4a-4735-11e8-993d-6f314d4f2b55.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39126639-7d9511f2-4735-11e8-873e-8042a0116893.png"/> |
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+| Documentation :closed_book: | Simple Page :memo: |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39138307-3aba2904-4752-11e8-913a-7c716ca7477b.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39139534-c2fa6494-4754-11e8-9dfb-107a3d530797.png"/> |
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+<h2>
+  <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
+    Getting Started
+  </a>
+</h2>
 
-# Changelog -- bugfixes and enhancements
+Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/guide/)
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com) installed.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+```bash
+# Clone the repo
+$ git clone https://github.com/mtobeiyf/vuepress-homepage.git
+$ cd vuepress-homepage
+
+# Install dependencies
+$ yarn  # or npm install
+
+# Run
+$ yarn dev  # or npm run dev
+```
+
+Check your site at `http://127.0.0.1:8080/`
+
+## Features
+
+- Markdown and emoji supported :smiley:
+- Elegant and minimalistic
+- Customizable and mobile-friendly
+- Multi-language support
+- Powered by [VuePress](https://vuepress.vuejs.org/) and [Vue.js](https://vuejs.org/)
+
+It's **static**, which means once generated, your site could be deployed anywhere, like [Netlify](https://www.netlify.com/) or [GitHub Pages]()
+
+| Simple Editing | Elegant Output |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39165083-42470364-47b5-11e8-8e1b-e225e6cf4161.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39165092-4af03422-47b5-11e8-986e-02bee0fe6979.jpg"/> |
+
+It's **responsive** and **mobile friendly**.
+
+| Main | Projects | Doc | Sidebar |
+| :---: | :---: | :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39163461-30a0e754-47ad-11e8-84ff-0c6716d6e937.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163230-2c917634-47ac-11e8-9c08-a87336c0bb02.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163235-32001436-47ac-11e8-8a80-f5aa1d639b82.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39163238-368bfb5a-47ac-11e8-81b9-78a38af16dfe.jpg"/> |
+
+
+
+## Credit
+
+[VuePress](https://vuepress.vuejs.org/): Vue-powered Static Site Generator
+
+[Vue.js](https://vuejs.org/): The Progressive JavaScript Framework
+
+## License
+
+Copyright © 2018, Fing
+
+Released under the [MIT License](https://opensource.org/licenses/MIT).
