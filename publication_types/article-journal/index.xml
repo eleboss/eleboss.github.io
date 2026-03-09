@@ -1,1 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Article-Journal |</title><link>https://sj-lin.top/publication_types/article-journal/</link><atom:link href="https://sj-lin.top/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml"/><description>Article-Journal</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://sj-lin.top/media/icon_hu_da05098ef60dc2e7.png</url><title>Article-Journal</title><link>https://sj-lin.top/publication_types/article-journal/</link></image><item><title>EROAM: Event-based Camera Rotational Odometry and Mapping in Real-time</title><link>https://sj-lin.top/publications/j1-eroam/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j1-eroam/</guid><description/></item><item><title>Neupan: Direct point robot navigation with end-to-end model-based learning</title><link>https://sj-lin.top/publications/j2-neupan/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j2-neupan/</guid><description/></item><item><title>Embodied neuromorphic synergy for lighting-robust machine vision to see in extreme bright</title><link>https://sj-lin.top/publications/j3-nature-comms/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j3-nature-comms/</guid><description/></item><item><title>Neuromorphic Synergy for Video Binarization</title><link>https://sj-lin.top/publications/j4-tip/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j4-tip/</guid><description/></item><item><title>Target-free extrinsic calibration of event-lidar dyad using edge correspondences</title><link>https://sj-lin.top/publications/j8-ral-calibration/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j8-ral-calibration/</guid><description/></item><item><title>Mental retrieval of remote sensing images via adversarial sketch-image feature learning</title><link>https://sj-lin.top/publications/j7-tgrs/</link><pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j7-tgrs/</guid><description/></item><item><title>Efficient spatial-temporal normalization of SAE representation for event camera</title><link>https://sj-lin.top/publications/j5-ral-sae/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j5-ral-sae/</guid><description/></item><item><title>adVAE: A self-adversarial variational autoencoder with Gaussian anomaly prior knowledge for anomaly detection</title><link>https://sj-lin.top/publications/j6-advae/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j6-advae/</guid><description/></item><item><title>Development of an autonomous unmanned aerial manipulator based on a real-time oriented-object detection method</title><link>https://sj-lin.top/publications/j9-sensors/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://sj-lin.top/publications/j9-sensors/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | </title>
+    <link>http://localhost:1314/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:1314/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1314/media/icon_hu_da05098ef60dc2e7.png</url>
+      <title>Article-Journal</title>
+      <link>http://localhost:1314/publication_types/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>EROAM: Event-based Camera Rotational Odometry and Mapping in Real-time</title>
+      <link>http://localhost:1314/publications/j1-eroam/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j1-eroam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neupan: Direct point robot navigation with end-to-end model-based learning</title>
+      <link>http://localhost:1314/publications/j2-neupan/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j2-neupan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embodied neuromorphic synergy for lighting-robust machine vision to see in extreme bright</title>
+      <link>http://localhost:1314/publications/j3-nature-comms/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j3-nature-comms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuromorphic Synergy for Video Binarization</title>
+      <link>http://localhost:1314/publications/j4-tip/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j4-tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Target-free extrinsic calibration of event-lidar dyad using edge correspondences</title>
+      <link>http://localhost:1314/publications/j8-ral-calibration/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j8-ral-calibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mental retrieval of remote sensing images via adversarial sketch-image feature learning</title>
+      <link>http://localhost:1314/publications/j7-tgrs/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j7-tgrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient spatial-temporal normalization of SAE representation for event camera</title>
+      <link>http://localhost:1314/publications/j5-ral-sae/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j5-ral-sae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adVAE: A self-adversarial variational autoencoder with Gaussian anomaly prior knowledge for anomaly detection</title>
+      <link>http://localhost:1314/publications/j6-advae/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j6-advae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of an autonomous unmanned aerial manipulator based on a real-time oriented-object detection method</title>
+      <link>http://localhost:1314/publications/j9-sensors/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/publications/j9-sensors/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
